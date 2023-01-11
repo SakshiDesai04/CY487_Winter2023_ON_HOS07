@@ -1,0 +1,17 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "rgName": {
+            "value": "CityU-CS487-Winter2021"
+        },
+        "rgLocation": {
+            "value": "westus"
+        },
+        "tags": {
+            "value": {
+                "HOP": "maryoh"
+            }
+        }
+    }
+}
